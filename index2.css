@@ -1,0 +1,124 @@
+body{
+    border-style: groove;
+    border-width: 20px;
+    border-color: chocolate;
+    border-radius: 25px;
+    background: white;
+  }
+  header{
+    
+   width: 100%;
+   height: 100px;
+   position: static;
+   top: 0;
+   border-bottom-style: solid;
+   border-bottom-width: 10px;
+   border-bottom-color: chocolate;
+   background: white;
+  }
+  footer{
+    background-image: url('image/dict.jpg');
+   background-size: cover;
+  }
+  
+  p{
+    font-family: Georgia;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+  }
+  p1{
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  p2{
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  article{
+    align-content: center;
+  }
+  .intro{
+   text-align: center;
+   font-size: 60px;
+   font-family: impact;
+   color: black;
+  }
+  .button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+  .button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid rgb(167, 32, 32);
+  }
+  .row3{
+   text-align: center;
+   font-size: 20px;
+   color: black;
+   font-family: verdana;
+   margin-top: 1px;
+   margin-bottom: 1px;
+  }
+  /* Add these styles to your existing stylesheet or create a new one */
+
+/* Style for form container */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Style for form labels */
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style for form input and textarea */
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Style for form textarea */
+  #fileContents {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+  }
+  
+  /* Style for form submit button */
+  .form-group button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-group button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
